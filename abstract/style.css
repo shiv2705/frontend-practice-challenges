@@ -32,13 +32,13 @@ header button {
 }
 
 main {
-    text-align: center;
     padding: 40px 20px;
 }
 
 main h2 {
     font-size: 36px;
     margin-bottom: 20px;
+    text-align: center;
     color: #000;
 }
 
