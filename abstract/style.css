@@ -16,34 +16,58 @@ header {
 }
 
 header h1 {
-    font-size: 20px;
+    font-size: 24px;
+    margin-left: 100px;
     font-weight: bold;
     color: white;
 }
 
 header button {
-    background-color: white;
-    color: black;
-    border: none;
+    background-color: #191a1b;
+    font-size: 24px;
+    color: white;
+    border: 1px solid white;
     padding: 8px 15px;
     cursor: pointer;
     border-radius: 5px;
     margin-left: 10px;
 }
 
+header .sign-in {
+    background-color: #4C5FD5;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 100px;
+    font-size: 24px;
+}
+
+header .sign-in:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black; /* Optional: Add a border to match the hover style */
+    transition-duration: 0.5s;
+
+}
+
+
 main {
     padding: 40px 20px;
 }
 
 main h2 {
-    font-size: 36px;
+    font-size: 70px;
     margin-bottom: 20px;
     text-align: center;
     color: #000;
+    font-weight: 100;
 }
 
 .search-bar {
-    max-width: 500px;
+    max-width: 700px;
     margin: 0 auto 40px;
     display: flex;
 }
@@ -148,7 +172,7 @@ footer p {
     color: #fff;
 }
 
-footer p a {
+footer ul a {
     color: #fff;
     text-decoration: none;
 }
